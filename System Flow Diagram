@@ -1,0 +1,43 @@
++---------------------------------------------------+
+|                Avionics Sensors/Modules           |
+|  (Airspeed, Altitude, Temp, Pressure, GPS, IMU,   |
+|   Engine Data, Comm Status, Power Status, etc.)   |
++---------------------------------------------------+
+                          |
+                          v
++---------------------------------------------------+
+|            Data Acquisition & Communication       |
+|  (MCU/RTOS, Bus Interfaces: ARINC 429, CAN, UART, |
+|   ADC/Digital IO, Time-stamping, Buffering)       |
++---------------------------------------------------+
+                          |
+                          v
++---------------------------------------------------+
+|             Preprocessing & Data Fusion           |
+|    (Filtering, Signal Conditioning,               |
+|     Sensor Fusion, Data Validation,               |
+|     Timestamp Sync, Noise Removal)                |
++---------------------------------------------------+
+                          |
+                          v
++---------------------------------------------------+
+|      Health Monitoring & Fault Detection Engine    |
+|  - Threshold/Rule Checks                          |
+|  - Trend Analysis/Drift Detection                 |
+|  - Model-based or ML/AI Anomaly Detection         |
++---------------------------------------------------+
+                          |
+                          v
++---------------------------------------------------+
+|             Fault Isolation & Diagnostics         |
+|   (Fault Trees, Cross-checks, Reasoning,          |
+|    Source Identification, Confidence Scoring)     |
++---------------------------------------------------+
+                          |
+                          v
++---------------------------------------------------+
+|           Visualization & Reporting Layer         |
+|   (Cockpit UI, Alarms, Logs, Maintenance Display, |
+|    Wireless/Ground Station Communication,         |
+|    Report Generation, Data Logging)               |
++---------------------------------------------------+
